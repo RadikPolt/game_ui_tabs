@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Game ui Tabs</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+	<main>
+		<div class="ba-container">
+			<div class="ba-game">
+				<div class="ba-game__wrap">
+					<ul class="ba-game__nav">
+						<li>
+							<a href="#tab1" class="ba-tab active" data-tab="tab1">
+								<svg class="icon ">
+									<use xlink:href="#description"></use>
+								</svg>
+								<h3>INFORMATION</h3>
+							</a>
+						</li>
+						<li>
+							<a href="#tab2" class="ba-tab" data-tab="tab2">
+								<svg class="icon ">
+									<use xlink:href="#ratings"></use>
+								</svg>
+								<h3>RATINGS INFO</h3>
+							</a>
+						</li>
+						<li>
+							<a href="#tab3" class="ba-tab" data-tab="tab3">
+								<svg class="icon ">
+									<use xlink:href="#bascet"></use>
+								</svg>
+								<h3>WHERE TO BUY</h3>
+							</a>
+						</li>
+					</ul>
+					<div class="ba-game__content">
+						<div id="tab1" class="ba-content active">
+							<div class="ba-content__visual">
+								<img src="img/farcry4.png" alt="far-cry-4">
+								<div class="ba-game-rating">
+									<svg class="icon ">
+										<use xlink:href="#full-star"></use>
+									</svg>
+									<svg class="icon ">
+										<use xlink:href="#full-star"></use>
+									</svg>
+									<svg class="icon ">
+										<use xlink:href="#full-star"></use>
+									</svg>
+									<svg class="icon ">
+										<use xlink:href="#full-star"></use>
+									</svg>
+									<svg class="icon ">
+										<use xlink:href="#empty-star"></use>
+									</svg>
+								</div>
+								<!-- /.ba-game-rating -->
+							</div>
+							<div class="ba-content__description">
+								<div class="ba-game__title">
+									<div class="ba-game__info">
+										<h2>FarCry 4</h2>
+										<h5>First Released Nov 17, 2014</h5>
+									</div>
+									<span>7.8</span>
+								</div>
+								<!-- /.ba-game__title -->
+								<div class="ba-game__description">
+									<p>In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region
+										of
+										the Hima
+										layas struggling under the regime of a despotic self-appointed king.</p>
+								</div>
+								<!-- /.ba-game__description -->
+								<div class="ba-game__buy">
+									<div class="ba-game-price">
+										<span>20% OFF!</span>
+										<h2>$59.96</h2>
+									</div>
+									<!-- /.ba-game-price -->
+									<a href="#" class="ba-buy-btn">
+										BUY IT NOW
+									</a>
+									<!-- /.ba-buy-btn -->
+								</div>
+								<!-- /.ba-game__buy -->
+							</div>
+							<!-- /.ba-content__description -->
+
+						</div>
+						<div id="tab2" class="ba-content">
+							
+							<div class="ba-content__description">
+								<div class="ba-game__title">
+									<div class="ba-game__info">
+										<h2>FarCry 4</h2>
+										<h5>First Released Nov 17, 2014</h5>
+									</div>
+									<span>7.8</span>
+								</div>
+								<!-- /.ba-game__title -->
+								<div class="ba-game__description">
+									<p>In Far Cry 4, players find themselves in Kyrat, a breathtaking, perilous and wild region
+										of
+										the Hima
+										layas struggling under the regime of a despotic self-appointed king.</p>
+								</div>
+								<!-- /.ba-game__description -->
+							</div>
+							<!-- /.ba-content__description -->
+
+						</div>
+
+						<div id="tab3" class="ba-content">
+								<div class="ba-game__buy">
+									<div class="ba-game-price">
+										<span>20% OFF!</span>
+										<h2>$59.96</h2>
+									</div>
+									<!-- /.ba-game-price -->
+									<a href="#" class="ba-buy-btn">
+										BUY IT NOW
+									</a>
+									<!-- /.ba-buy-btn -->
+								</div>
+								<!-- /.ba-game__buy -->
+							</div>
+							<!-- /.ba-content__description -->
+
+						</div>
+					</div>
+					<!-- /.ba-game__content -->
+
+				</div>
+
+			</div>
+
+		</div>
+		<!-- /.ba-container -->
+	</main>
+	<svg class="ba-hidden">
+		<defs>
+			<symbol id="description" viewBox="0 0 24 24">
+				<path fill-rule="evenodd" fill="currentColor"
+					d="M20.400,18.999 L16.780,18.999 L12.990,22.789 L12.990,22.789 C12.736,23.043 12.386,23.200 12.000,23.200 C11.613,23.200 11.263,23.043 11.010,22.789 L11.010,22.789 L7.220,18.999 L3.600,18.999 C2.053,18.999 0.800,17.746 0.800,16.200 L0.800,3.599 C0.800,2.053 2.053,0.800 3.600,0.800 L20.400,0.800 C21.946,0.800 23.200,2.053 23.200,3.599 L23.200,16.200 C23.200,17.746 21.946,18.999 20.400,18.999 ZM20.400,4.999 C20.400,4.226 19.773,3.599 19.000,3.599 L5.000,3.599 C4.226,3.599 3.600,4.226 3.600,4.999 L3.600,14.799 C3.600,15.572 4.226,16.200 5.000,16.200 L6.400,16.200 L7.800,16.200 C8.186,16.200 8.536,16.356 8.790,16.610 L8.790,16.610 L12.000,19.819 L15.210,16.610 L15.210,16.610 C15.463,16.356 15.813,16.200 16.200,16.200 L17.600,16.200 L19.000,16.200 C19.773,16.200 20.400,15.572 20.400,14.799 L20.400,4.999 ZM16.200,13.399 L7.800,13.399 C7.026,13.399 6.400,12.773 6.400,11.999 C6.400,11.226 7.026,10.599 7.800,10.599 L16.200,10.599 C16.973,10.599 17.600,11.226 17.600,11.999 C17.600,12.773 16.973,13.399 16.200,13.399 ZM16.200,9.199 L7.800,9.199 C7.026,9.199 6.400,8.573 6.400,7.799 C6.400,7.026 7.026,6.399 7.800,6.399 L16.200,6.399 C16.973,6.399 17.600,7.026 17.600,7.799 C17.600,8.573 16.973,9.199 16.200,9.199 Z" />
+			</symbol>
+			<symbol id="ratings" viewBox="0 0 19 21">
+				<path fill-rule="evenodd" fill="currentColor"
+					d="M18.993,11.308 C18.993,13.986 16.868,16.157 14.246,16.157 C12.692,16.157 11.332,15.382 10.472,14.200 L10.449,14.217 L9.500,12.924 L8.550,14.217 L8.537,14.207 C7.671,15.384 6.306,16.157 4.753,16.157 C2.132,16.157 0.007,13.986 0.007,11.308 C0.007,10.216 0.373,9.218 0.969,8.408 L0.956,8.398 C0.956,8.398 7.918,-0.008 9.500,-0.008 C11.082,-0.008 18.043,8.398 18.043,8.398 L18.030,8.408 C18.626,9.218 18.993,10.216 18.993,11.308 ZM7.918,17.773 L7.918,16.157 C7.918,15.265 8.626,14.540 9.500,14.540 C10.374,14.540 11.082,15.265 11.082,16.157 L11.082,17.773 C11.956,17.773 12.664,18.497 12.664,19.390 C12.664,20.282 11.956,21.007 11.082,21.007 L7.918,21.007 C7.044,21.007 6.336,20.282 6.336,19.390 C6.336,18.497 7.044,17.773 7.918,17.773 Z" />
+			</symbol>
+			<symbol id="bascet" viewBox="0 0 20 20">
+				<path fill-rule="evenodd" fill="currentColor"
+					d="M19.946,7.765 L19.970,7.771 L17.470,19.021 L17.446,19.015 C17.321,19.574 16.846,19.999 16.250,19.999 L3.750,19.999 C3.154,19.999 2.679,19.574 2.554,19.015 L2.530,19.021 L0.030,7.771 L0.054,7.765 C0.034,7.677 -0.000,7.594 -0.000,7.500 C-0.000,6.809 0.560,6.250 1.250,6.250 L3.750,6.250 C3.750,2.798 6.548,-0.001 10.000,-0.001 C13.452,-0.001 16.250,2.798 16.250,6.250 L18.750,6.250 C19.440,6.250 20.000,6.809 20.000,7.500 C20.000,7.594 19.966,7.677 19.946,7.765 ZM10.000,2.499 C7.929,2.499 6.250,4.178 6.250,6.250 L13.750,6.250 C13.750,4.178 12.071,2.499 10.000,2.499 ZM15.000,11.250 C14.310,11.250 13.750,10.690 13.750,9.999 L13.750,8.750 L6.250,8.750 L6.250,9.999 C6.250,10.690 5.690,11.250 5.000,11.250 C4.310,11.250 3.750,10.690 3.750,9.999 L3.750,8.750 L2.808,8.750 L4.753,17.499 L15.247,17.499 L17.192,8.750 L16.250,8.750 L16.250,9.999 C16.250,10.690 15.690,11.250 15.000,11.250 Z" />
+			</symbol>
+			<symbol id="full-star" viewBox="0 0 20 19">
+				<path fill-rule="evenodd" fill="rgb(255, 221, 63)"
+					d="M5.335,18.302 C7.055,17.487 10.050,16.067 10.050,16.067 C10.050,16.067 12.993,17.448 14.865,18.327 C14.258,18.042 16.431,19.568 16.230,17.451 C16.038,15.415 15.729,12.145 15.729,12.145 C15.729,12.145 17.876,9.754 19.217,8.261 C18.657,8.884 20.757,7.182 18.802,6.813 C16.825,6.441 13.282,6.179 13.282,6.179 C13.282,6.179 11.873,2.924 10.833,1.124 C11.317,1.962 10.284,-0.727 9.246,1.085 C8.214,2.885 6.702,6.193 6.702,6.193 C6.702,6.193 3.266,6.461 1.288,6.840 C2.063,6.692 -0.522,6.760 0.791,8.215 C2.131,9.698 4.361,12.168 4.361,12.168 C4.361,12.168 4.063,15.452 3.877,17.487 C3.925,16.961 3.201,19.313 5.335,18.302 Z" />
+			</symbol>
+			<symbol id="empty-star" viewBox="0 0 20 19">
+				<path fill-rule="evenodd" fill="rgb(189, 195, 199)"
+					d="M5.335,18.302 C7.055,17.487 10.050,16.067 10.050,16.067 C10.050,16.067 12.993,17.448 14.865,18.327 C14.258,18.042 16.431,19.568 16.230,17.451 C16.038,15.415 15.729,12.145 15.729,12.145 C15.729,12.145 17.876,9.754 19.217,8.261 C18.657,8.884 20.757,7.182 18.802,6.813 C16.825,6.441 13.282,6.179 13.282,6.179 C13.282,6.179 11.873,2.924 10.833,1.124 C11.317,1.962 10.284,-0.727 9.246,1.085 C8.214,2.885 6.702,6.193 6.702,6.193 C6.702,6.193 3.266,6.461 1.288,6.840 C2.063,6.692 -0.522,6.760 0.791,8.215 C2.131,9.698 4.361,12.168 4.361,12.168 C4.361,12.168 4.063,15.452 3.877,17.487 C3.925,16.961 3.201,19.313 5.335,18.302 Z" />
+			</symbol>
+		</defs>
+	</svg>
+<script src="js/app.js"></script>
+</body>
+
+</html>

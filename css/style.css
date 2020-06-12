@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  background: url(../img/bg.png) no-repeat;
+  /* background: #292d3e; */
+  background-size: cover;
+  font: 400 14px/1.6 "Lato", sans-serif;
+  color: #b7bacd;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+h2{
+	color: #ffffff;
+	font-size: 32px;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1;
+}
+.ba-game {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.ba-game__nav {
+  background: #2b3040;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 0;
+  padding: 30px 60px;
+}
+.ba-game__nav svg {
+  width: 22px;
+  height: 22px;
+  margin-bottom: 14px;
+}
+.ba-game__nav h3 {
+}
+.ba-tab {
+  background: transparent;
+  color: #fff;
+  display: flex;
+  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.7;
+}
+.ba-tab.active {
+  opacity: 1;
+  position: relative;
+  /* position: relative; */
+}
+.ba-tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  border-bottom: 4px solid #fff;
+  width: 100%;
+}
+.ba-game__content {
+  background: #212534;
+  padding: 60px 40px;
+}
+.ba-hidden {
+  display: none;
+}
+.ba-content {
+  display: flex;
+}
+.ba-game-rating {
+  display: flex;
+}
+.ba-game-rating svg {
+  width: 20px;
+  height: 20px;
+}
+.ba-content__visual {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ba-content__visual img{
+	margin-bottom: 20px;
+}
+
+.ba-content__description{
+	padding-left: 35px;
+}
+
+.ba-game__title{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.ba-game__title h2{
+	margin: 0 0 5px 5px;
+}
+.ba-game__title span{
+	margin-right: 30px;
+	font-size: 20px;
+}
+.ba-game__title h5{
+	font-size: 14px;
+	color: #ffffff;
+}
+.ba-game__title span::after{
+	content:'';
+	width: 80px;
+	height: 80px;
+	top: 4px;
+	right: 0;
+	position: absolute;
+	background: url(../img/circle.png) no-repeat;
+}
+.ba-game__description{
+	margin-bottom: 60px;
+}
+.ba-game__buy{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ba-game__buy span{
+	color: #fedc3f;
+	font-size: 12px;
+	font-weight: 700;
+}
+.ba-game__buy h2{
+	line-height: 1;
+}
+.ba-buy-btn{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 20px;
+	display: inline-block;
+	border: 2px solid #13e28d;
+	background:#13e28d;
+	border-radius: 5px;
+}
+.ba-buy-btn:hover{
+	background: transparent;
+}
+.ba-content{
+	display: none;
+}
+.ba-content.active{
+	display: flex;
+}
